@@ -1,0 +1,25 @@
+Variables: son cajas donde podemos guardar cualquier valor.
+
+Strings: Son cadenas de letras y numeros delimitadas por comillas ('abc') y que se interpretan como texto
+
+funciones: Se usan para guardar codigo agrupado que se puede ejecutar luego solamente mencionando la función. La forma de escribirlas es:
+
+         function NombreDeLaFucion(Argumentos) {
+             //código (se usa doble / para tomar como comentario)
+	     };
+
+            Los argumentos son variables que se definen para esta función.
+	    Si queremos que la función nos devuelva algún valor se utiliza "return". Por ejemplo: Queremos que la funcion nos devuelva la suma
+            de las variables a y b. Entonces escribimos:
+
+	function Suma(a ,b){
+		return a + b
+		};
+
+	    Para ver entonces el resultado de una suma cualquiera de dos números, por ejemplo 3 y 5, escribimos:
+		Suma(3, 5);
+
+Declaracion IF: nos permite obtener un retorno o ejecutar una acción dependiendo de alguna condición. Es decir: Si se cumple la condición, pasa tal cosa,
+            si no, pasa otra (else) o no pasa nada.
+
+Valores Booleanos: Son valores lógicos. Sirven para comprobar si una "afirmación" es verdadera o falsa.
